@@ -1,0 +1,42 @@
+/*Estilo de la seccion 1*/
+.contenedor1 {
+    position: relative;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: flexbox;
+}
+
+.grafica {
+    position: absolute;
+    margin: auto;
+    
+}
+
+.monitor {
+    position: relative;
+    margin: auto;
+    left: 300px;
+}
+
+/*Estilo del Body y Header de la pagina*/
+
+
+
+
+.Titulo {
+    margin: auto;
+}
+
+.Cuerpo {
+    color: #606060;
+}
+
+body {
+    background-color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
