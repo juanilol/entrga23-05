@@ -37,6 +37,28 @@ header nav ul li {
   color: #070000;
   /* Cambia el color de texto a tu elección */
 }
+/*-----------------------------------------Contacto--------------------------------*/
+.contacto {
+  text-align: center;
+}
+
+.contacto ul {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  align-items: center;
+  text-align: center;
+}
+
+.contacto iframe {
+  width: 100%;
+  max-width: 400px;
+  height: 200px;
+  margin-bottom: 20px;
+}
+
 
 /*-----------------------------------------Footer e iconos del mismo--------------------------------*/
 
