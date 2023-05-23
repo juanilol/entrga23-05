@@ -1,4 +1,4 @@
-/*Estilo de la seccion 1*/
+/*Productos destacados */
 .contenedor1 {
     position: relative;
     top: 0;
@@ -7,23 +7,31 @@
     left: 0;
     display: flexbox;
 }
-
-.grafica {
-    position: absolute;
-    margin: auto;
-    
-}
-
-.monitor {
-    position: relative;
-    margin: auto;
-    left: 300px;
-}
+.contenedor-imagenes {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .grafica,
+  .monitor,
+  .teclado {
+    flex: 1;
+    max-width: 500px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .grafica img,
+  .monitor img,
+  .teclado img {
+    max-width: 100%;
+    height: auto;
+  }
 
 /*Estilo del Body y Header de la pagina*/
-
-
-
 
 .Titulo {
     margin: auto;

@@ -1,26 +1,105 @@
+/*-----------------------------------------Body--------------------------------*/
+body{
+  list-style: none;
+}
+header{
+  list-style: none;
+}
+
+header nav ul li {
+  list-style: none;
+  display: inline;
+  margin-right: 0.2rem;
+  font-size: 20px;
+  font-family: Georgia;
+  display: grid;
+}
 
 
+
+
+/*-----------------------------------------Barra de navegacion--------------------------------*/
 .navbar {
   margin: 0;
   padding: 0;
 }
+
 .navbar.navbar-gray {
-  background-color: #888;
+  background-color: #e63e3e;
 }
+
 .navbar.navbar-gray .nav-link.active {
-  background-color: #888;
-  color: #e7dcdc;
+  background-color: #e63e3e;
+  color: #070000;
 }
+
 .navbar.navbar-gray .nav-link {
-  color: #e7dcdc; /* Cambia el color de texto a tu elección */
+  color: #070000;
+  /* Cambia el color de texto a tu elección */
 }
 
-.formulario {
-  font-family: Arial Black;
-  background-color: #5576ff;
+/*-----------------------------------------Footer e iconos del mismo--------------------------------*/
 
 
+ul,
+li {
+  display: flex;
+  list-style: none;
+}
 
+.iconos {
+  display: flex;
+  justify-content: center;
+}
+
+.iconos li {
+  margin: 0 10px;
+}
+
+.iconos img {
+  width: 30px;
+  height: 30px;
+}
+
+footer {
+  position: relative;
+  background-color: #e63e3e;
+  margin: auto;
+  top: 80px;
+  padding: 20px;
+}
+
+.iconos {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.facebook {
+  margin-right: 10px;
+}
+
+.whatsapp {
+  margin-right: 10px;
+}
+
+.instagram {
+  margin-right: 10px;
+}
+
+.titulo {
+  text-align: left;
+}
+
+/*-----------------------------------------Carrito de compra--------------------------------*/
+
+.iconos_carrito {
+  list-style: none;
+  display: inline;
+  margin-right: 0.2rem;
+  font-size: 20px;
+  font-family: OCR A Extended;
 }
 
 form {
@@ -32,217 +111,3 @@ form {
   border: 10px solid 5576ff;
   border-radius: 3em;
 }
-
-
-.contacto {
-  list-style: none;
-}
-
-
-
-
-footer {
-  position: relative;
-  background-color: #5576ff;
-  margin: auto;
-  top: 80px;
-
-
-}
-
-.whatsapp {
-  position: relative;
-  margin: auto;
-  left: 1720px;
-  bottom: 10px;
-  top: 60px;
-}
-
-.facebook {
-  position: relative;
-  margin: auto;
-  left: 1588px;
-  top: 120px;
-  bottom: 10px;
-}
-
-.instagram {
-  position: relative;
-  margin: auto;
-  left: 1650px;
-  bottom: 10px;
-}
-
-.iconos {
-  list-style: none;
-  display: inline;
-  margin-right: 0.2rem;
-}
-
-.barra {
-  top: 55px;
-
-}
-
-.iconos_carrito {
-  list-style: none;
-  display: inline;
-  margin-right: 0.2rem;
-  font-size: 20px;
-  font-family: OCR A Extended;
-}
-
-
- 
-
-  .formulario {
-    font-family: Arial Black;
-    background-color: #5576ff;
-
-
-
-  }
-
-  form {
-    /* Centrar el formulario en la página */
-    margin: 0 auto;
-    width: 400px;
-    /* Esquema del formulario */
-    padding: 1em;
-    border: 10px solid 5576ff;
-    border-radius: 3em;
-  }
-
-  ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-  }
-
-  form li+li {
-    margin-top: 1em;
-  }
-
-  label {
-    /* Tamaño y alineación uniforme */
-    display: inline-block;
-    width: 100px;
-
-  }
-
-  .contacto {
-    list-style: none;
-  }
-
-
-
-
-  footer {
-    position: relative;
-    background-color: #5576ff;
-    margin: auto;
-    top: 80px;
-
-
-  }
-
-  .whatsapp {
-    position: relative;
-    margin: auto;
-    left: 1720px;
-    bottom: 10px;
-    top: 60px;
-  }
-
-  .facebook {
-    position: relative;
-    margin: auto;
-    left: 1588px;
-    top: 120px;
-    bottom: 10px;
-  }
-
-  .instagram {
-    position: relative;
-    margin: auto;
-    left: 1650px;
-    bottom: 10px;
-  }
-
-  .iconos {
-    list-style: none;
-    display: inline;
-    margin-right: 0.2rem;
-  }
-
-  .barra {
-    top: 55px;
-
-  }
-
-  .iconos_carrito {
-    list-style: none;
-    display: inline;
-    margin-right: 0.2rem;
-    font-size: 20px;
-    font-family: OCR A Extended;
-  }
-
-  a {
-    text-decoration: none;
-    padding: 0;
-  }
-/*Mother stilo*/
-  .producto_2{
-    display: flex;
-    align-items: center;
-    margin-bottom: 20px;
-   
-  }
-  .product-details{
-    flex-grow: 1;
-  }
-  .product-description{
-    color: #555;
-
-  }
-  body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-  }
-  header {
-   
-    color: #fff;
-    padding: 20px;
-  }
-  h1 {
-    margin: 0;
-  }
-  main {
-    margin: 20px;
-  }
-  .product {
-    display: flex;
-    align-items: center;
-    margin-bottom: 20px;
-  }
-  .product img {
-    width: 150px;
-    margin-right: 20px;
-  }
-  .product-details {
-    flex-grow: 1;
-  }
-  .product-title {
-    font-weight: bold;
-    font-size: 18px;
-    margin-bottom: 5px;
-  }
-  .product-price {
-    font-weight: bold;
-    color: #888;
-  }
-  .product-description {
-    color: #555;
-  }
